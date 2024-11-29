@@ -1,0 +1,6 @@
+[
+  {
+    "id": "policy_id",
+    "content": "permit(principal, action, resource);"
+  }
+]
