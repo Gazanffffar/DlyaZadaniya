@@ -1,6 +1,6 @@
 // All users can read all resources
 permit(
     principal,
-    action in Action::"delete",
+    action in Action::"put",
     resource
 );
