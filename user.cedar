@@ -1,5 +1,6 @@
+// All users can read all resources
 permit(
-    principal in Role::"user",
-    action == Action::"search",
+    principal,
+    action in Action::"get",
     resource
 );
